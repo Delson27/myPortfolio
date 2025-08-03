@@ -89,8 +89,8 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-left: 10vh;
-  padding-right: 9vh;
+  padding-left: 5vw; /*added*/
+  padding-right: 5vw; /*added*/
   box-sizing: border-box;
   position: relative;
   animation: fadeInUp 1s ease-in-out; /*added*/
