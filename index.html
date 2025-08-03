@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styling.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navigation">
+      <p>Code.Create.Inspire</p>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <ul id="ul1">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="heading">
+        <h1 class="gradient-text">Hello, It's Me</h1>
+        <h1 class="typing gradient-text">Delson Loyd Dsouza</h1>
+
+        <div class="resume-dropdown" id="resumedropdown">
+          <button class="resume-btn" id="resumebtn">Resume</button>
+          <div class="dropdown-content" id="dropdowncontent">
+            <a href="DelsonResume.pdf" target="_blank">View Resume</a>
+            <a href="DelsonResume.pdf" download>Download Resume</a>
+          </div>
+        </div>
+      </div>
+      <figure class="figure">
+        <img src="Picture.jpg" alt="Profile_Picture" />
+      </figure>
+    </div>
+
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+          I'm a passionate Computer Science Engineering student from SJEC
+          Mangalore.<br />
+          I'm a Java enthusiast and a Full Stack Web Developer with a strong
+          interest in building clean, user-friendly websites and developing
+          robust backend systems.<br />
+          I enjoy exploring new technologies and constantly challenge myself to
+          learn and grow.
+        </p>
+      </div>
+    </section>
+
+    <section class="info-section" id="info">
+      <div class="grid-container">
+        <div class="item-title">Skills</div>
+        <div class="item-content">
+          Java, HTML, CSS, JavaScript, React, Node.js, MySQL, MongoDB
+        </div>
+
+        <div class="item-title">Education</div>
+        <div class="item-content">
+          B.E. in Computer Science - SJEC Mangalore <br />
+          2022 - 2026
+        </div>
+
+        <div class="item-title">Certificates</div>
+        <div class="item-content">
+          Java Developer - HackerRank <br />
+          Full Stack Web Dev - InternPe <br />
+          Responsive Web Design - freeCodeCamp
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <h3 class="project-title">
+            Employee and Department Management System
+          </h3>
+          <p class="project-desc">
+            A simple desktop application using Tkinter and SQLite to manage
+            employees and departments. Includes login authentication and
+            supports adding, updating, deleting, and viewing records through a
+            user-friendly interface.
+          </p>
+          <a
+            href="https://github.com/Delson27/DBMS_project.git"
+            target="_blank"
+            class="github-link"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <div class="project-card">
+          <h3 class="project-title">E-commerce Website</h3>
+          <p class="project-desc">
+            A clean and responsive e-commerce website built using HTML, CSS, and
+            JavaScript. It includes essential features like homepage, product
+            listing, shopping cart, and basic user authentication for a seamless
+            shopping experience.
+          </p>
+          <a
+            href="https://github.com/Delson27/Ecommerce.git"
+            target="_blank"
+            class="github-link"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <div class="project-card">
+          <h3 class="project-title">Personal Portfolio Website</h3>
+          <p class="project-desc">
+            A simple and responsive personal portfolio built using HTML and CSS.
+            Showcases my skills, projects, and contact information in a clean
+            layout for easy navigation.
+          </p>
+          <a
+            href="https://github.com/Delson27/Portfolio.git"
+            target="_blank"
+            class="github-link"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <div class="project-card">
+          <h3 class="project-title">Connect 4 Game</h3>
+          <p class="project-desc">
+            Connect Four is a classic two-player strategy game built using HTML,
+            CSS, and JavaScript. The goal is to be the first to form a
+            horizontal, vertical, or diagonal line of four of one's own discs.
+          </p>
+          <a
+            href="https://github.com/Delson27/connectFour.git"
+            target="_blank"
+            class="github-link"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <div class="project-card">
+          <h3 class="project-title">Calculator</h3>
+          <p class="project-desc">
+            A simple web-based calculator built using HTML, CSS, and JavaScript.
+            It supports basic arithmetic operations, clear and delete functions,
+            and has a clean, responsive user interface.
+          </p>
+          <a
+            href="https://github.com/Delson27/calculator.git"
+            target="_blank"
+            class="github-link"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2 class="section-heading">Let's Connect</h2>
+      <div class="contact-container">
+        <p class="section-description">
+          Reach out to me via any of the platforms below. I'm always open to
+          opportunities and conversations!
+        </p>
+        <div class="contact-links">
+          <a href="mailto:delsondsouza2004@gmail.com" class="contact-box"
+            ><i class="fa-regular fa-envelope"></i>Email</a
+          >
+          <a
+            href="https://www.linkedin.com/in/dsouzadelson/"
+            target="_blank"
+            class="contact-box"
+            ><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a
+          >
+          <a
+            href="https://www.instagram.com/_.delson._27"
+            target="_blank"
+            class="contact-box"
+            ><i class="fa-brands fa-instagram"></i>Instagram</a
+          >
+          <a
+            href="https://github.com/Delson27"
+            target="_blank"
+            class="contact-box"
+            ><i class="fa-brands fa-github"></i>GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2025 Delson Loyd Dsouza. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
