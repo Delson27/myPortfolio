@@ -499,7 +499,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .conatiner {
+  .container {
     justify-content: center;
     align-items: center;
     padding-left: 2vw;
